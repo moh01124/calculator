@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    background-color: #373737;
+}
+.container{
+    background-color:rgb(25, 25, 37);
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px 20px;
+    margin: auto;
+    color: #fff;
+}
+.screen {
+    
+    background-color: #565656;
+    height: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+.btn{
+    height: 50px;
+    background-color: #464646;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.btn:hover{
+    background-color: #646464;
+}
+.btn>img {
+    width: 20%;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.buttns{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px 5px;
+}
+.last-item {
+    grid-column: 3/ 5;
+    background-color: rgb(61, 88, 120);
+}
+.last-item:hover {
+    background-color: rgb(39, 56, 77);
+}
+.operator{
+    background-color: #dc722f;
+}
+.operator:hover{
+    background-color: #824722;
+}
